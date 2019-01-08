@@ -8,6 +8,7 @@ def fizzbuzz(int)
     "Fizz" # Go fizz
     elsif int % 5 == 0 
     "Buzz"
+    binding.pry
     elsif int % 15 == 0
     "FizzBuzz"
   else int % 4 == 0 
