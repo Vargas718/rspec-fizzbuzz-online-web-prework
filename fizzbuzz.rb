@@ -8,7 +8,7 @@ def fizzbuzz(int)
     "Fizz" # Go fizz
     elsif int % 5 == 0 
     "Buzz"
-    elsif  %   == 0
+    elsif int % 3 && int % 5
     "FizzBuzz"
   else int % 4 == 0 
     nil
