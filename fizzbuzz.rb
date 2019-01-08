@@ -4,11 +4,12 @@ require 'pry'
 
 
 def fizzbuzz(int, 15)
-  if 
+  if i
     elsif int % 5 == 0 
     "Buzz"
     elsif int % 4 == 0 
-  else 
+  else int % 3 == 0 
+    "Fizz" #
   end
   
 end
