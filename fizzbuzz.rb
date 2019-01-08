@@ -10,7 +10,7 @@ def fizzbuzz(int)
     "Buzz"
     elsif int % 4 == 0 
     nil
-     elsif int % 15 == 0
+     elsif int = 15 
     "FizzBuzz"
   binding.pry
   end
