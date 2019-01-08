@@ -9,9 +9,5 @@ def fizzbuzz(int)
     elsif int % 5 == 0 
     "Buzz"
     elsif int % 4 == 0 
-    nil
-   else
-    "FizzBuzz"
-  binding.pry
   end
 end
